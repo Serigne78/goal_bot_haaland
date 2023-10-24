@@ -3,12 +3,12 @@ from twilio.rest import Client
 import time
 
 # Vos informations d'authentification Twilio
-account_sid = 'AC6f6499dc580fa4eb7615d821f6ffd761'
-auth_token = '06b283670cded4da161385f7c03d49c7'
+account_sid = 'xxxxxxxx'
+auth_token = 'xxxxxxxxxx'
 
 # Votre numéro Twilio et votre numéro de téléphone
-twilio_phone_number = '+12766639248'
-your_phone_number = '+33643969375'
+twilio_phone_number = 'xxxxxxxx'
+your_phone_number = '+xxxxxxx'
 
 # L'URL de l'API
 url = "https://api-football-v1.p.rapidapi.com/v3/players/topscorers"
